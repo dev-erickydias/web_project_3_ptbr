@@ -1,0 +1,5 @@
+.place__texts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+}
