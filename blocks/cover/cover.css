@@ -1,0 +1,6 @@
+.cover{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5.75rem;
+}

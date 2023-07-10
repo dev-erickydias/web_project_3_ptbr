@@ -54,8 +54,19 @@
 @import url(../blocks/place/__button-in/place__button-in.css);
 @import url(../blocks/place/__button-out/place__button-out.css);
 
-/*  */
-/*  */
+/* Aqui começa a estilização do bloco cover */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__container/cover__container.css);
+@import url(../blocks/cover/__texts/cover__texts.css);
+@import url(../blocks/cover/__text/cover__text.css);
+@import url(../blocks/cover/__line/cover__line.css);
+@import url(../blocks/cover/__button/cover__button.css);
+
+/* aqui esta a estilização do footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
 /*  */
 /*  */
 /*  */
