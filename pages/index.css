@@ -7,9 +7,18 @@
 /* estilização da pagina */
 @import url(../blocks/pages/page.css);
 
-/* titulos e dubtitulos padrões */
+/* titulos e subtitulos padrões */
 @import url(../blocks/title/title.css);
 @import url(../blocks/subtitle/subtitle.css);
+
+/* padrões para todos os textos */
+@import url(../blocks/text/text.css);
+
+/* padrões das citações */
+@import url(../blocks/cite/cite.css);
+
+/* padrões dos os quotes */
+@import url(../blocks/quote/quote.css);
 
 /* estilização do Header */
 @import url(../blocks/header/header.css);
@@ -18,7 +27,18 @@
 @import url(../blocks/header/__subtitle/header__subtitle.css);
 @import url(../blocks/header/__image/header__image.css);
 
-/*  */
+/* estilização do bloco intro */
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__quote/intro__quote.css);
+@import url(../blocks/intro/__cite/intro__cite.css);
+@import url(../blocks/photo__grid/__images/grid__images.css);
+@import url(../blocks/photo__grid/__image/grid__image.css);
+
+
+
+
 /*  */
 /*  */
 /*  */

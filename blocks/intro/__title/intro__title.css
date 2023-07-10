@@ -1,0 +1,10 @@
+.intro__title{
+    display: flex;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 3.625rem;
+    max-width: 63.5625rem;
+    text-align: left;
+    margin: 0;
+}
