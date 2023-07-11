@@ -1,6 +1,3 @@
-
-
-
 /* importação do arquivo normalize */
 @import url(../vendor/normalize.css);
 
@@ -9,7 +6,6 @@
 
 /* estilização da pagina */
 @import url(../blocks/pages/page.css);
-
 
 /* padrões das citações */
 @import url(../blocks/cite/cite.css);
@@ -20,7 +16,6 @@
 /* estilos do botoes da pagina NFT*/
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__text/button__text.css);
-
 
 /* estilização do Header */
 @import url(../blocks/logo/logo.css);
@@ -48,7 +43,6 @@
 @import url(../blocks/places/__artist/place__artist.css);
 @import url(../blocks/places/__image/place__image.css);
 
-
 /* Aqui começa a estilização do bloco cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
@@ -63,15 +57,5 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 body {
-    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+    
 }
-
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */

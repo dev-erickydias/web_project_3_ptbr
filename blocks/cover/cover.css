@@ -1,6 +1,33 @@
-.cover{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 5.75rem;
+.cover {
+  margin-top: 92px;
+  height: 740px;
+  background-image: url(../../image/cover__bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(42, 44, 47, 0.3);
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.cover:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    height: 746px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .cover {
+    margin-top: 64px;
+    height: 254px;
+  }
 }
