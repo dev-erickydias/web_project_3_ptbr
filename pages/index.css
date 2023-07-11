@@ -1,8 +1,11 @@
-/* importação de fontes para a pagina */
-@import url('https://fonts.googleapis.com/css2?family= Inter:wght@400;900 & display =swap');
+
+
 
 /* importação do arquivo normalize */
 @import url(../vendor/normalize.css);
+
+/* importação de fontes para a pagina */
+@import url(../vendor/inter/inter.css);
 
 /* estilização da pagina */
 @import url(../blocks/pages/page.css);
@@ -66,6 +69,10 @@
 /* aqui esta a estilização do footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+body {
+    font-family: "Inter", "Arial", "Helvetica", sans-serif;
+}
 
 /*  */
 /*  */
