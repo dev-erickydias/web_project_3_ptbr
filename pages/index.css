@@ -46,10 +46,7 @@
 /* Aqui começa a estilização do bloco cover */
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/__container/cover__container.css);
-@import url(../blocks/cover/__texts/cover__texts.css);
 @import url(../blocks/cover/__text/cover__text.css);
-@import url(../blocks/cover/__line/cover__line.css);
 @import url(../blocks/cover/__button/cover__button.css);
 
 /* aqui esta a estilização do footer */

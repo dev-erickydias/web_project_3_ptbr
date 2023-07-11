@@ -1,6 +1,7 @@
 .cover {
-  margin-top: 92px;
+  margin: 92px auto 0;
   height: 740px;
+  width: 1184px;
   background-image: url(../../image/cover__bg.png);
   background-repeat: no-repeat;
   background-position: center;
