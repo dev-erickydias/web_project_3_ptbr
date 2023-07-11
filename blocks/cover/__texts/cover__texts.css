@@ -1,4 +1,17 @@
-.cover__texts{
-    display: flex;
-    flex-direction: column;
-}
+.cover__text {
+    margin: 32px 0;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: normal;
+  }
+  .text-breakline::before {
+    content: "\a";
+    white-space: pre-line;
+  }
+  @media screen and (max-width: 656px) {
+    .cover__text {
+      margin: 16px 0;
+      font-size: 14px;
+      line-height: 1.25;
+    }
+  }
