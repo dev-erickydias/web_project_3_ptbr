@@ -1,8 +1,25 @@
-.grid__images {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 2;
-    margin: 4rem 0 0 0;
-    gap: 1rem;
+.photo-grid {
+  margin: 92px auto 12px;
+  width: 92.5%;
+  max-width: 1482px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    margin: 64px auto 16px;
+    width: 93.7%;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 656px) {
+  .photo-grid {
+    margin: 38px auto 12px;
     width: 90%;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
 }

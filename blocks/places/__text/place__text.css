@@ -1,0 +1,17 @@
+.place__text {
+  -ms-grid-row-span: 2;
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  align-self: flex-start;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.63;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    row-gap: 13px;
+  }
+}

@@ -1,0 +1,43 @@
+.place {
+  margin: 80px auto 0;
+  max-width: 1060px;
+  width: 76.5%;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  grid-template-rows: repeat(2, auto) 1fr;
+  grid-template-areas:
+    "title artist"
+    "image text"
+    "button text";
+  column-gap: 40px;
+  row-gap: 48px;
+  justify-items: flex-start;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 1024px) {
+  .place {
+    width: 93.6%;
+    margin: 72px auto 0;
+    -webkit-column-gap: 28px;
+    -moz-column-gap: 28px;
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 656px) {
+  .place {
+    margin: 50px auto 0;
+    width: 90.5%;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "artist"
+      "image"
+      "text"
+      "button";
+    row-gap: 22px;
+  }
+}

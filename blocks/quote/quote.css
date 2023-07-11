@@ -1,5 +1,14 @@
-.quote{
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    color: white;
+.quote {
+  margin-top: 40px;
+  max-width: 720px;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+@media screen and (max-width: 656px) {
+  .quote {
+    margin-top: 9px;
+    line-height: 1.5;
+  }
 }

@@ -10,12 +10,6 @@
 /* estilização da pagina */
 @import url(../blocks/pages/page.css);
 
-/* titulos e subtitulos padrões */
-@import url(../blocks/title/title.css);
-@import url(../blocks/subtitle/subtitle.css);
-
-/* padrões para todos os textos */
-@import url(../blocks/text/text.css);
 
 /* padrões das citações */
 @import url(../blocks/cite/cite.css);
@@ -26,7 +20,10 @@
 /* estilos do botoes da pagina NFT*/
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__text/button__text.css);
+
+
 /* estilização do Header */
+@import url(../blocks/logo/logo.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -43,19 +40,14 @@
 @import url(../blocks/photo__grid/__image/grid__image.css);
 
 /* aqui esta as estilizações do bloco places */
-@import url(../blocks/places/places.css);
-@import url(../blocks/place/place.css);
-@import url(../blocks/place/__title/place__title.css);
-@import url(../blocks/place/__subtitle/place__subtitle.css);
-@import url(../blocks/place/__texts/place__texts.css);
-@import url(../blocks/place/__text/place__text.css);
-@import url(../blocks/place/__header/place__header.css);
-@import url(../blocks/place/__image/place__image.css);
-@import url(../blocks/place/__container/place__container.css);
-@import url(../blocks/place/__contant/place__contant.css);
-@import url(../blocks/place/__cite/place__cite.css);
-@import url(../blocks/place/__button-in/place__button-in.css);
-@import url(../blocks/place/__button-out/place__button-out.css);
+@import url(../blocks/place-grid/place-grid.css);
+@import url(../blocks/places/place.css);
+@import url(../blocks/places/__title/place__title.css);
+@import url(../blocks/places/__text/place__text.css);
+@import url(../blocks/places/__artist-name/place__artist-name.css);
+@import url(../blocks/places/__artist/place__artist.css);
+@import url(../blocks/places/__image/place__image.css);
+
 
 /* Aqui começa a estilização do bloco cover */
 @import url(../blocks/cover/cover.css);

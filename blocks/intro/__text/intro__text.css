@@ -1,7 +1,12 @@
-.intro__text{
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 163%;
-    max-width: 45rem;
-    margin: 2rem 0 0 0;
+.introduction__text {
+  margin-top: 32px;
+  max-width: 720px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 656px) {
+  .introduction__text {
+    margin-top: 18px;
+  }
 }
