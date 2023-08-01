@@ -9,7 +9,7 @@
   grid-template-areas:
     "title artist"
     "image text"
-    "button";
+    "button text";
   column-gap: 40px;
   row-gap: 48px;
   justify-items: flex-start;
